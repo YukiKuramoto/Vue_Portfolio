@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*RecipeNote*/
+
+
+#header{
+    display: flex;
+    width: 100%;
+    min-width: 1500px;
+    height: 75px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top : solid 3px;
+    border-bottom: solid 3px;
+}
+
+#logo {
+    display:inline-block;
+    height: 65px;
+    padding: 5px 40px;
+}
+
+.page-menu {
+    margin-right: 10px;
+}
+.page-menu > .menu-btn {
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding:20px;
+    color: black;
+}
+
+.page-menu > .menu-btn:hover{
+    background-color: rgba(213, 218, 229, 0.6);
+    transition: 1.0s;
+}

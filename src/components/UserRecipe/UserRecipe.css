@@ -1,0 +1,138 @@
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    margin: 100px 100px;
+    background-color: white;
+    width: 1220px;
+    min-width: 1220px;
+    min-height: 700px;
+}
+
+.tag {
+   text-align: center; 
+}
+
+.body-title {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px auto 20px auto;
+}
+
+.body-title p {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #FFF;
+    background: #F9B015;
+}
+
+#heading-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #696969;
+}
+
+#outer-of-outer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#recipe-body-outer {
+    display: inline-block;
+}
+
+
+.recipe-body{
+    margin-top: 10px;
+    width: 1040px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-item-wrapper {
+    width: 300px;
+    /*height: 420px;*/
+    padding: 10px;
+    margin: 10px 22px 30px 22px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: solid 2px #ddd;
+    background-color:white;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .25);
+}
+
+.recipe-item-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.recipe-item-image-wrapper {
+    width: 270px;
+    height: 270px;
+    padding: 5px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.recipe-item-image {
+    max-height: 250px;
+    max-width: 250px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.recipe-info {
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    margin: 10px 10px;
+    padding: 0.2em 0.5em;
+    color: #454545;
+    height:105px;
+}
+
+.recipe-info:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-title {
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0px -6px 5px -3px rgba(247,198,104,0.8) inset,0px 7px 5px -8px #f7c668;
+}
+
+.recipe-comments {
+    margin-top: 10px;
+}
+
+#user-name {
+    text-align: right;
+    font-size: 12px;
+    color: black;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*RecipeNote*/
+
+
+#header{
+    display: flex;
+    width: 100%;
+    min-width: 1500px;
+    height: 75px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top : solid 3px;
+    border-bottom: solid 3px;
+}
+
+#logo {
+    display:inline-block;
+    height: 65px;
+    padding: 5px 40px;
+}
+
+.page-menu {
+    margin-right: 10px;
+}
+.page-menu > .menu-btn {
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding:20px;
+    color: black;
+}
+
+.page-menu > .menu-btn:hover{
+    background-color: rgba(213, 218, 229, 0.6);
+    transition: 1.0s;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-wrapper {
+    width: 900px;
+    height: 400px;
+    margin-top: 150px;
+    padding-top: 50px;
+    background-color: white;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+#login__submit-button {
+    margin-top: 20px;
+}

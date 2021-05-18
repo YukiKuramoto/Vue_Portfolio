@@ -1,0 +1,57 @@
+
+#form-body {
+    width: 1000px;
+    min-height: 400px;
+    margin: 100px auto 0px auto;
+    background-color: white;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.prof-title {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px auto 20px auto;
+}
+
+.prof-title p {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #FFF;
+    background: #F9B015;
+}
+
+.tag {
+   text-align: center; 
+}
+
+#prof-head {
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+.prof-info-contents {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#comment-form {
+    width: 600px;
+}
+
+.submit-button {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+#submit-button {
+    padding: 30px 0;
+}

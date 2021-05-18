@@ -1,0 +1,221 @@
+
+#form-wrapper {
+    z-index: -4;
+}
+
+#form-body {
+    width: 1000px;
+    margin: 100px auto 70px auto;
+    padding-bottom: 15px;
+    background-color: white;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    z-index: -3;
+}
+
+
+.tag {
+   text-align: center; 
+}
+
+.body-title {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px auto 20px auto;
+}
+
+.body-title:before {/*左側のリボン端*/
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: -10px;
+    left: -27px;
+    z-index: 1;
+    border: 20px solid #FAC450;
+    border-left-color: transparent;/*山形に切り抜き*/
+}
+
+.body-title:after {/*右側のリボン端*/
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: -10px;
+    right: -27px;
+    z-index: 1;
+    border: 20px solid #FAC450;
+    border-right-color: transparent;/*山形に切り抜き*/
+}
+
+.body-title p {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 45px;
+    font-size: 18px;
+    z-index:2;
+    color: #FFF;
+    background: #F9B015;/*真ん中の背景色*/
+}
+
+.body-title p:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 10px transparent;
+    border-right: solid 15px #D09005;/*左の折り返し部分*/
+}
+
+.body-title p:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    right: 0;
+    border: none;
+    border-bottom: solid 10px transparent;
+    border-left: solid 15px #D09005;/*右の折り返し部分*/
+}
+
+
+
+
+#form-title {
+    text-align: center;
+    padding: 30px;
+}
+
+#recipe-title-wrapper {
+    padding-bottom: 20px;
+}
+
+#recipe-info {
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+}
+
+#recipe-image {
+    border: solid 2px #ddd;
+}
+
+.image-template {
+    max-height: 375px;
+    max-width: 350px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#form-ingredients{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+th {
+    /*background-color: #EEEEEE;*/
+    padding-top: 5px;
+}
+
+td p {
+    margin: 0;
+    padding-top: 5px;
+}
+
+#ingredient-table {
+    width: 340px;
+    margin: 20px 0 5px 0;
+}
+
+.ingredient {
+    background-color: transparent;
+}
+
+.contents-heading {
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  padding: 0;
+}
+
+.fa-utensils {
+    margin-right: 5px;
+    color: #ddd;
+}
+
+.form-list{
+    margin: 0 0 0 10px;
+    height: 28px;
+    width: 12em;
+    transition: all .6s ease;
+    border-bottom:1px solid #cccccc;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-radius:0px;
+}
+
+#recipe-title {
+    width: 370px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#recipe-cost-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recipe-cost {
+    width: 300px;
+    margin: 10px 0 0 20px;
+}
+
+#form-recipe {
+    padding: 15px 100px 15px 100px;
+}
+
+#recipe-comment-wrapper {
+    width: 600px;
+}
+
+#recipe-comment {
+    margin-bottom: 0;
+}
+
+
+.recipe-body {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.recipe-method {
+    margin: 30px 0 40px 20px;
+    width: 780px;
+}
+
+.recipe-body-contents {
+    background-color: #fff0cd;;
+    border: 2px dashed #fff;
+    box-shadow: 0 0 0 4px #fff0cd;;
+    /*color: #fff;*/
+    /*margin: 2em 0;*/
+    padding: 1em;
+}
+
+.button-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.user-button {
+    width: 150px;
+}
+
+#edit {
+    margin-right: 10px;
+}
