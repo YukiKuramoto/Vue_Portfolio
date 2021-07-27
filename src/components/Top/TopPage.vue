@@ -16,6 +16,7 @@
                         </div>
                         <div id="user-name">
                             <p>ニックネーム</p>
+                            <p>test</p>
                             <h4 id="nick-name">{{ nickName }}</h4>
                         </div>
                         <div id="prof-wrapper">
